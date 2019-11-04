@@ -1,0 +1,46 @@
+{
+  "name": "brix-sg-converter",
+  "version": "0.1.0",
+  "description": "",
+  "main": "dist/main.js",
+  "keywords": [
+    "sg",
+    "specific gravity",
+    "brix",
+    "converter"
+  ],
+  "scripts": {
+    "test": "ava -v",
+    "build": "webpack",
+    "ck": "npm pack --dry-run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/aoki/brix-sg-converter.git"
+  },
+  "author": "aoki <ringohub@gmail.com> (https://github.com/ringohub)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aoki/brix-sg-converter/issues"
+  },
+  "homepage": "https://github.com/aoki/brix-sg-converter#readme",
+  "devDependencies": {
+    "@types/node": "12.12.5",
+    "ava": "2.4.0",
+    "ts-loader": "6.2.1",
+    "ts-node": "8.4.1",
+    "typescript": "3.6.4",
+    "webpack": "4.41.2",
+    "webpack-bundle-analyzer": "3.6.0",
+    "webpack-cli": "3.3.10"
+  },
+  "ava": {
+    "compileEnhancements": false,
+    "extensions": [
+      "ts"
+    ],
+    "require": [
+      "ts-node/register"
+    ]
+  }
+}
