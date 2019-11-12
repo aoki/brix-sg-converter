@@ -12,7 +12,8 @@
   "scripts": {
     "test": "ava -v",
     "build": "webpack",
-    "ck": "npm pack --dry-run"
+    "ck": "npm pack --dry-run",
+    "prepare": "npm run build"
   },
   "repository": {
     "type": "git",
